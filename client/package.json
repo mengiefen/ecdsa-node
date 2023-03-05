@@ -1,13 +1,15 @@
 {
   "name": "ecdsa-node",
   "private": true,
-  "homepage": "https://mengiefen.github.io/ecdsa-node",
   "version": "0.0.0",
+  "homepage": "https://mengiefen.github.io/ecdsa-node",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^0.27.2",
@@ -20,6 +22,7 @@
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.1.0",
     "autoprefixer": "^10.4.13",
+    "gh-pages": "^5.0.0",
     "postcss": "^8.4.21",
     "sass": "^1.54.9",
     "tailwindcss": "^3.2.7",
