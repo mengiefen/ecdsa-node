@@ -2,6 +2,7 @@
   "name": "ecdsa-node",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://mengiefen.github.io/ecdsa-node/",
   "type": "module",
   "scripts": {
     "dev": "vite",
