@@ -9,7 +9,7 @@ function App() {
   const [privateKey, setPrivateKey] = useState("")
 
   return (
-    <div className="app flex flex-column lg:flex-row  md:items-center justify-center">
+    <div className="app flex  lg:flex-row gap-3 flex-column justify-center">
       <Wallet
         balance={balance}
         setBalance={setBalance}
